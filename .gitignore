@@ -1,0 +1,38 @@
+# Maya temporary files
+*.autosave
+*.bak
+*.swp
+
+# Maya workspace
+workspace.mel
+projects/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large model files (uncomment if you want to exclude)
+# *.mb
+# *.ma
